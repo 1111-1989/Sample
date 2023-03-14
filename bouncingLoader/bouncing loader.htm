@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>bouncing loader</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+   body{
+       background-color: #1d253a;
+       overflow: hidden;
+
+   }
+   P{
+       font-size: 35PX;
+       color: white;
+       top: 100px;
+       left: 140px;
+       position: relative;
+
+
+   }
+   h1{
+      font-size: 50PX;
+       position: relative;
+       color: #56c6d1;
+       top: 80px;
+       left: 135px;
+   }
+   img{
+       position: relative;
+       float: right;
+       top:-250px;
+   }
+   .a1{
+        color:white;
+        position: relative;
+        font-size: 25px;
+        top: 280px;
+        left:1245px;
+        text-decoration: none;
+   }
+   .a2{
+       color:white;
+        position: relative;
+        font-size: 20px;
+        top: 320px;
+        left:1037px;
+        text-decoration: none;
+
+   }
+   .container{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 85px;
+
+
+
+   }
+   .circles{
+      width:60px;
+      height: 60px;
+      border-radius: 100%;
+      animation: mona 1s linear infinite ;
+
+   }
+   .circle1{
+       background-color: #9EDFDC;
+       margin: 25px;
+
+   }
+   .circle2{
+       background-color: #9EDFDC;
+       animation-delay: -0.2s;
+        margin: 25px;
+   }
+   .circle3{
+       background-color: #9EDFDC;
+       animation-delay: -0.4s;
+        margin: 25px;
+   }
+   @keyframes mona{
+     0%,
+     50%,
+     100%, {
+         transform: scale(1);
+     }
+     25% {
+         transform: scale(0.6);
+     }
+     75%{
+        transform: scale(1.4);
+     }
+
+     }
+     
+
+</style>
+</head>
+
+<body>
+  <p>HTML/CSS</p>
+  <h1> Bouncing<br />Loader</h1>
+  <img src="../../picture.html/call.png" alt="" />
+  <a class="a1" href="tell:437-974-0068">437-974-0068</a>
+  <a class="a2" href="mailto:mona.teimoory2022@gmail.com">mona.teimoory2022@gmail.com</a>
+  <div class="container">
+      <div class="circle1 circles"></div>
+      <div class="circle2 circles"></div>
+      <div class="circle3 circles"></div>
+
+  </div>
+
+
+</body>
+
+</html>
